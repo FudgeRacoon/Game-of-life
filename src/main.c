@@ -2,13 +2,13 @@
 
 int main(int argc, char* argv[])
 {
-    if(GOL_Init("Test", 600, 600, 60, 60) != 0)
+    if(GOL_Init("Test", (int)strtof(argv[1], NULL), (int)strtof(argv[2], NULL), (int)strtof(argv[3], NULL), (int)strtof(argv[4], NULL)) != 0)
     {
         getchar();
         return EXIT_FAILURE;
     }
     
-    if(GOL_LoadState("assets\\state.txt") != 0)
+    if(GOL_LoadState(argv[5]) != 0)
     {
         getchar();
         return EXIT_FAILURE;
