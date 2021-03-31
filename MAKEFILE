@@ -6,4 +6,4 @@ compile:
 	$(CC) -g -std=c11 src/*.c -o build/game_of_life.exe -I$(IDIR) -L$(LDIR) -lmingw32 -lSDL2main -lSDL2
 
 run:
-	build/game_of_life.exe
+	build/game_of_life.exe 600 600 60 60 assets\state.txt
