@@ -1,6 +1,6 @@
 <h1>Introduction</h1>
 <p>
-  This is a <code>c</code> program based on the famous simulation <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life" target = "_blank">Conway's game of life</a>. The     simulation works by changging the state of cells from living to dead and vice verse every frame according to a predefined ruleset:
+  This is a <code>c</code> program based on the famous simulation <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life" target = "_blank">Conway's game of life</a>. The     simulation works by changing the state of cells from living to dead and vice verse every frame according to a predefined ruleset:
 </p>
   <ul>
     <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
